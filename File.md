@@ -14,11 +14,7 @@ git commit -m "Commit 3" <br>
 git add File.md <br>
 git commit -m "Commit 4" <br>
 git checkout master <br>
-<<<<<<< HEAD
 git merge Fristbranch <br>
-=======
-git merge Fristbranch "Commit 5" <br>
->>>>>>> ThirdBranch
 git add File.md <br>
 git commit -m "Commit 5" <br>
 git add File.md <br>
@@ -35,7 +31,6 @@ git commit -m "Commit 9" <br>
 git checkout master <br>
 git checkout 9e91b59e845a07a6defa716be7081f7101040227 <br>
 git add File.md <br>
-<<<<<<< HEAD
 git commit -m "Commit 10" <br>
 git checkout master <br>
 git merge SecondBranch <br>
@@ -43,7 +38,15 @@ git add File.md <br>
 git commit -m "Commit 11" <br>
 git add File.md <br>
 git commit -m "Commit 12" <br>
+git log --reflog <br>
+git checkout e585c37717c41b35bdb2b29a79175b98ea899760 <br>
+git checkout master <br>
+git branch ThirdBranch e585c37 <br>
+git merge ThirdBranch <br>
+git add File.md <br>
+git commit -m "Commit 13" <br>
+git log --graph <br>
+git add RepoHistory.PNG File.md <br>
+git commit -m "Commit 14" <br>
 
-=======
-git commit -m "Commit 10" <br>
->>>>>>> ThirdBranch
+
