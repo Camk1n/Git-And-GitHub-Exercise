@@ -26,3 +26,5 @@ git add File.md <br>
 git commit -m "Commit 7" <br>
 git add File.md <br>
 git commit -m "Commit 8" <br>
+git add File.md <br>
+git commit -m "Commit 9" <br>
