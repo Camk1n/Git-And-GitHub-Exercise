@@ -13,3 +13,14 @@ git add File.md <br>
 git commit -m "Commit 3" <br>
 git add File.md <br>
 git commit -m "Commit 4" <br>
+git checkout master <br>
+git merge Fristbranch "Commit 5" <br>
+git add File.md <br>
+git commit -m "Commit 5" <br>
+git add File.md <br>
+git commit -m "Commit 6" <br>
+git checkout 6a0bf6589d13ed1e5f104645f004007f7556a99f <br>
+git branch SecondBranch <br>
+git checkout SecondBranch <br>
+git add File.md <br>
+git commit -m "Commit 7" <br>
