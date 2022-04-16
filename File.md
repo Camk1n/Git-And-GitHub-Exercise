@@ -11,3 +11,5 @@ git branch Fristbranch <br>
 git checkout Fristbranch <br>
 git add File.md <br>
 git commit -m "Commit 3" <br>
+git add File.md <br>
+git commit -m "Commit 4" <br>
